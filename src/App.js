@@ -16,7 +16,7 @@ import goDaddy from '../src/Images/godaddy.jpg';
 
 // ReallySmoothScroll.shim();
 
-configureAnchors({offset: -920, scrollDuration: 1200})
+configureAnchors({offset: 130, scrollDuration: 1200})
 
 class App extends Component {
    
@@ -45,16 +45,18 @@ class App extends Component {
           </div>
         </div>
 
+        <ScrollableAnchor id={'section1'}>
         <div className="logoParent">
           <div><img className="logo" src={logo}/></div>
           <div className="main-title">Big fish<span className="dot">.</span> Big results<span className="dot">.</span></div>
           <a className="scroll" href='#section1'><div className="animated bounce"><i className="fa fa-chevron-down"></i></div></a>
         </div>
+        </ScrollableAnchor>
       </div>
+
 
 {/* Who we are / Our Services  */}
 
-        <ScrollableAnchor id={'section1'}>
           <div className="who">
             <div className="weAreTitle">we are big marlin group<span className="weAreDot">.</span></div>
             <div className="weAreSub">We create effective marketing campaigns with measurable results <br/>
@@ -63,7 +65,7 @@ class App extends Component {
                  creativity and hard work. We are a group of dedicated pros who can solve your business and marketing challenges in a constantly changing <br/>
                  digital world. We are an Arizona-based marketing agency with a national reputation for beating expectations.</div>
             <div className="weAreBtn">who we are</div>
-          </div></ScrollableAnchor>
+          </div>
 
         <div className="services">
           <div className="hookedTitle">get hooked<span className="hookedDot">.</span></div>
