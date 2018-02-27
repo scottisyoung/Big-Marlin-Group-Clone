@@ -14,16 +14,12 @@ import image6 from '../src/Images/freestone-small.jpg';
 import google from '../src/Images/google-partner.png';
 import goDaddy from '../src/Images/godaddy.jpg';
 
-
-
 // ReallySmoothScroll.shim();
 
 configureAnchors({offset: -920, scrollDuration: 1200})
 
 class App extends Component {
    
-
-
   render() {
     var settings = {
       arrows: true,
@@ -35,8 +31,6 @@ class App extends Component {
       autoplay: true,
       autoplaySpeed: 10000
     }
-
-
 
     return (
       <div className="App">
